@@ -1,0 +1,386 @@
+@charset "UTF-8";
+html {
+  font-size: 16px;
+  font-family: "微軟正黑體", monospace;
+  line-height: 1.4;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.page-header {
+  background: #000000;
+  color: #ffffff;
+}
+
+.page-header .container {
+  text-align: center;
+}
+
+.main-menu .container {
+  height: 70px;
+}
+
+.main-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main-menu li {
+  margin-right: 25px;
+  line-height: 70px;
+}
+
+.main-menu li a {
+  display: block;
+}
+
+.big {
+  display: block;
+  line-height: 70px;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 200px;
+  padding-right: 280px;
+}
+
+.cart {
+  height: 550px;
+}
+
+.cart .keep {
+  display: block;
+  margin: 10px 0px 20px;
+}
+
+.cart ol {
+  margin: 0;
+  padding: 20px 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: #000000 1px solid;
+}
+
+.cart li {
+  padding-right: 105px;
+}
+
+.cart .first-cart {
+  padding-right: 520px;
+}
+
+.cart .end-cart {
+  padding: 0 0 0 90px;
+}
+
+.cart .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0;
+  border-bottom: #000000 1px solid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart .second img {
+  margin: 15px 5px 15px 0;
+}
+
+.cart .second p {
+  margin-bottom: 0;
+}
+
+.cart .second h5 {
+  margin: 0;
+}
+
+.cart .second a {
+  display: block;
+  color: #000000;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.cart .second .push {
+  margin-right: 260px;
+}
+
+.cart .second input {
+  height: 30px;
+  width: 50px;
+  margin: 15px 180px 15px 80px;
+}
+
+.cart .third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart .third .push {
+  margin: 15px 350px 15px 0;
+}
+
+.cart .third .push2 span {
+  padding-left: 260px;
+}
+
+.cart .third .p {
+  padding-bottom: 10px;
+  padding-left: 2em;
+  border-bottom: #000000 1px solid;
+}
+
+.cart .p span {
+  margin-left: 1.5em;
+}
+
+.cart .third .p1 {
+  padding-left: 2em;
+}
+
+.cart .third button {
+  width: 420px;
+  height: 30px;
+  background: #000000;
+  color: #fff;
+}
+
+.email {
+  background: #ddd;
+}
+
+.email .container {
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.email .first {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.email span {
+  display: block;
+  position: relative;
+  left: 1.2px;
+  margin-bottom: 15px;
+}
+
+.email .text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  margin: 0 auto 15px;
+  width: 500px;
+}
+
+.email .text input {
+  padding: 0;
+  border: 0;
+  width: 500px;
+  position: relative;
+}
+
+.email .button {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.email .button button {
+  width: 500px;
+  background: #000000;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.email .container .second {
+  text-align: center;
+}
+
+.email i {
+  position: relative;
+  left: -235px;
+  top: 23px;
+  z-index: 3;
+}
+
+.footer-menu {
+  background: #000000;
+}
+
+.page-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-footer a {
+  color: #fff;
+  padding-right: 25px;
+}
+
+.page-footer .end {
+  text-align: center;
+  line-height: 30px;
+  background: #ddd;
+  height: 30px;
+}
+
+.page-footer span {
+  text-align: center;
+}
+
+@media screen and (max-width: 1140px) {
+  .container {
+    width: 820px;
+  }
+  .main-menu li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 4rem;
+            flex: 0 0 4rem;
+  }
+  .main-menu #icon {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .main-menu .big {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 3em;
+            flex: 1 0 3em;
+    padding: 0 100px;
+  }
+  .cart a {
+    display: inline-block;
+  }
+  .cart .first-cart {
+    padding: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .cart .second .push {
+    margin: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .cart .third .push {
+    margin: 16px 0 0 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .container {
+    width: 700px;
+  }
+  .main-menu .big {
+    padding: 0 30px;
+  }
+  .main-menu li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .container {
+    width: 668px;
+  }
+  .main-menu li {
+    margin-right: 10px;
+  }
+  .main-menu #icon {
+    margin-right: 25px;
+  }
+  .main-menu .big {
+    padding-left: 70px;
+  }
+  .cart .end-cart {
+    padding: 0;
+  }
+  .cart li {
+    padding-right: 60px;
+  }
+  .cart .push {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .cart .second input {
+    margin: 0;
+    margin-left: 15px;
+  }
+  .cart .second h4 {
+    padding: 0 0 0 30px;
+  }
+  .cart .second .h4 {
+    padding-right: 25px;
+  }
+  .third {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .third .push {
+    padding-left: 80px;
+  }
+  .third .push2 {
+    padding: 10px 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .email {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .container {
+    width: 580px;
+  }
+  .main-menu .big {
+    padding-left: 30px;
+  }
+}
+/*# sourceMappingURL=style-cart.css.map */
